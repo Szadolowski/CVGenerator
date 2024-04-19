@@ -29,8 +29,8 @@ function App() {
               ■ Szybkość uczenia się <br />
               ■ Komunikatywność <br />
               ■ Zespołowość <br />
-              ■ rozwiązywanie konfliktów <br />
-              ■ chęć do nauki i samorozwoju <br />
+              ■ Rozwiązywanie konfliktów <br />
+              ■ Chęć do nauki i samorozwoju <br />
             </h5>
           </div>
         </div>
