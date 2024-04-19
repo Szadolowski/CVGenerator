@@ -3,7 +3,51 @@ import "./App.css";
 function App() {
   return (
     <section className="CV">
-      <section className="information"></section>
+      <section className="information">
+        <div className="aboutMe">
+          <p>
+            Frontend Developer specjalizujący się w HTML, CSS, JavaScript,
+            React.js i TypeScript. Moją siłą jest uporczywość i determinacja w
+            rozwiązywaniu problemów technicznych, co skutkuje tworzeniem
+            efektywnych i nowoczesnych interfejsów użytkownika.
+          </p>
+        </div>
+        <div className="language">
+          <h3>LANGUAGE</h3>
+          <div className="languageText">
+            <h5>
+              Polish <br />
+              <br />
+              English
+            </h5>
+          </div>
+        </div>
+        <div className="softSkills">
+          <h3>SOFT SKILLS</h3>
+          <div className="softSkillsText">
+            <h5>
+              ■ Szybkość uczenia się <br />
+              ■ Komunikatywność <br />
+              ■ Zespołowość <br />
+              ■ rozwiązywanie konfliktów <br />
+              ■ chęć do nauki i samorozwoju <br />
+            </h5>
+          </div>
+        </div>
+        <div className="hobby">
+          <h3>HOBBIES AND INTERESTS</h3>
+          <div className="hobbyText">
+            <h5>
+              ■ Grafika <br />
+              ■ Technologia <br />
+              ■ Design <br />
+              ■ Fotografia <br />
+              ■ Książki <br />
+              ■ Motoryzacja <br />
+            </h5>
+          </div>
+        </div>
+      </section>
       <section className="data">
         <div className="title">
           <h1>RAFAŁ </h1>
@@ -79,18 +123,18 @@ function App() {
               <span>Kwalifikacja zawodowa: </span>
               <br />
               <span>
-                • <b>INF.02: </b> Administracja i eksploatacja systemów
+                <b>INF.02: </b> Administracja i eksploatacja systemów
                 komputerowych, urządzeń peryferyjnych i lokalnych sieci
                 komputerowych
               </span>
               <br />
               <span>
-                • <b>INF.03: </b> Tworzenie i administrowanie stronami i
+                <b>INF.03: </b> Tworzenie i administrowanie stronami i
                 aplikacjami internetowymi oraz bazami danych
               </span>
               <br />
               <span>
-                • <b>IT Essentials</b>
+                <b>IT Essentials</b>
               </span>
             </div>
           </div>

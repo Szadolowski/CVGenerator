@@ -9,11 +9,14 @@
 }
 
 .CV {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  height: 1300px;
+  width: 1200px;
 }
 
 .information {
@@ -24,10 +27,56 @@
   align-items: center;
 
   background-color: rgb(42, 42, 42);
+  width: 400px;
+  height: 100%;
+}
+
+.aboutMe {
+  margin-top: 188px;
+  margin-right: 20px;
+  background-color: rgb(255, 168, 0);
+  display: flex;
+  place-items: center;
+  height: 110px;
+  padding: 10px;
+}
+
+.information p {
+  color: white;
+  font-size: 12px;
+}
+
+.language {
+  margin-top: 50px;
+  width: 70%;
+  text-align: left;
+}
+
+.softSkills {
+  width: 70%;
+  margin-top: 50px;
+}
+.hobby {
+  margin-top: 50px;
+  width: 70%;
+}
+
+.information h3 {
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.information h5 {
+  color: white;
+  text-align: left;
+  font-weight: 300;
+  font-size: 15px;
 }
 
 .data {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,6 +84,7 @@
 
   box-sizing: border-box;
   flex: 1;
+  height: 100%;
 }
 
 .title {
@@ -164,9 +214,10 @@ h4 {
   box-sizing: border-box;
   display: flex;
   justify-content: left;
-  font-size: 10px;
+  font-size: 12px;
   text-align: left;
   color: rgb(37, 48, 55);
+  margin-right: 20px;
 }
 
 .educationDescription {
@@ -221,8 +272,12 @@ h4 {
 }
 
 footer {
+  height: 100%;
   font-size: 10px;
   background-color: white;
   width: 100%;
   padding-bottom: 10px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
 }
