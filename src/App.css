@@ -37,7 +37,7 @@
   background-color: rgb(255, 168, 0);
   display: flex;
   place-items: center;
-  height: 110px;
+  height: 160px;
   padding: 10px;
 }
 
@@ -88,6 +88,7 @@
 }
 
 .title {
+  padding-top: 20px;
   background-color: rgb(255, 168, 0);
   padding: 20px;
   width: 100%;
