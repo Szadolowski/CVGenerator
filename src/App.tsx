@@ -306,6 +306,14 @@ function App() {
                 </linearGradient>
               </defs>
             </svg>
+            <br />
+            Framer Motion
+            <img
+              src="fm.svg"
+              alt="framer motion"
+              height={"15px"}
+              width={"15px"}
+            />
           </h5>
         </div>
         <div className="workExperience">
