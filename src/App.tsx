@@ -16,9 +16,9 @@ function App() {
           <h3>LANGUAGE</h3>
           <div className="languageText">
             <h5>
-              Polish <br />
+              Polish(nativ) <br />
               <br />
-              English
+              English(B2)
             </h5>
           </div>
         </div>
